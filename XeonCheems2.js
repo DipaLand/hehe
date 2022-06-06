@@ -1233,7 +1233,7 @@ XeonBotInc.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${s
 					break
 					case 'charactercheck':
 					//YouTube📍 by xeon⛔\\
-					if (!text) return replay(`Tag Someone, Example : ${prefix + command} @Xeon`)
+					if (!text) return replay(`Tag Someone, Example : ${prefix + command} @MrclNotWibu`)
 					const xeony =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
 					const taky = xeony[Math.floor(Math.random() * xeony.length)]
 					XeonBotInc.sendMessage(from, { text: `Character Check : ${q}\nAnswer : *${taky}*` }, { quoted: m })
@@ -4165,8 +4165,8 @@ case 'thanksto': case 'tqto': case 'tqtt':
 var unicorn = await getBuffer(picak+'Developer')
 await XeonBotInc.send5ButImg(from, `` + '' + ' ', `
 Thanks to
-LORD BUDDHA
-Xeon (Me)
+Allah SWT
+MrclL (Me)
 My family
 And All Friends Who Helped Assemble This Sexy Script !!!`,unicorn, [{"urlButton": {"displayText": "YouTube📍","url": `${myweb}`}},{"urlButton": {"displayText": "Script🔖","url": `${sc}`}},{"quickReplyButton": {"displayText": "🍜Donate🍜","id": 'donate'}},{"quickReplyButton": {"displayText": "👤Owner👤","id": 'owner'}}] )
 break
